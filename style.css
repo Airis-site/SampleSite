@@ -63,7 +63,9 @@ article {
   margin-bottom: 2rem;
   background: Tan;
 }
-
+article img{
+    width:75%;
+}
 aside {
   flex: 0.5;
   padding: 0.5rem;
@@ -76,4 +78,21 @@ footer {
   background: #660000;
   ;
   color: Wheat;
+}
+
+/* YouTube 動画　をフレキシブルにするための CSS */
+
+.youtube {
+     position: relative;
+     padding-bottom: 56.25%; /* 16:9の場合*/
+     height: 0;
+     overflow: hidden;
+}
+
+.youtube iframe {
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
 }
