@@ -1,9 +1,10 @@
-*{
+* {
   margin: 0;
   padding: 0;
   list-style: none;
   text-decoration: none;
 }
+
 #container {
   width: 84%;
   max-width: 1280px;
@@ -29,7 +30,7 @@ header h1 {
 
 nav {
   padding: 1rem 3rem;
-  background: #003300	;
+  background: #003300;
 }
 
 nav ul {
@@ -42,12 +43,13 @@ nav ul li {
 }
 
 nav ul li a {
-  color:DarkGoldenrod;
+  color: DarkGoldenrod;
 }
 
 main {
   display: flex;
-flex-direction:row-reverse;}
+  flex-direction: row-reverse;
+}
 
 section {
   flex: 5;
@@ -65,7 +67,7 @@ article {
 aside {
   flex: 0.5;
   padding: 0.5rem;
-  background: #996633	;
+  background: #996633;
 }
 
 footer {
